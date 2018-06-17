@@ -3,12 +3,22 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-}
+}s
 
 .btn{
     margin-top: 14px;
 }
 
+.btn-primary,
+.btn-danger {
+  margin-top: 0;
+  margin-left: 4px;
+}
+
+h3{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -29,7 +39,10 @@ body {
     line-height: 40px;
     color: #5cb85c;
 }
-
+.spacing{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /* Custom page footer */
 .footer {
